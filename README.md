@@ -1,12 +1,9 @@
 ## Usage
 
-1. Use this git template when you create a new project like this
-   1. public repo
-   2. With all branches
-2. Add your chart under the charts folder and push to master
+see main branch of this project
 
-How to install:
-
-    helm repo add {{repo-name}} https://iits-consulting.github.io/{{repo-name}}/
-    helm search repo {{repo-name}}
-    helm install my-release {{repo-name}}/<chart>
+export CHART_NAME="Chart name under charts folder"
+export CHART_REPO_NAME="GITHUB PROJECT NAME"
+helm repo add $CHART_REPO_NAME https://iits-consulting.github.io/$CHART_REPO_NAME/
+helm search repo $CHART_NAME
+helm install $CHART_NAME $CHART_REPO_NAME/$CHART_NAME
