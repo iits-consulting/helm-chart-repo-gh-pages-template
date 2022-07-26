@@ -30,7 +30,6 @@ Any helm chart provided by iits-consulting needs to adhere to the following acce
 * Use subcharts to manage dependencies whenever possible
 * **Document** every values.yaml variable that is meant to be adjusted
 * Specify a license
-* Add /charts/ to .gitignore
 * Provide a default .helmignore
 * HorizontalPodAutoscaler should be present
 * Have a NOTES.txt that provides information about the deployment
